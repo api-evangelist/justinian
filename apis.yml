@@ -1,22 +1,59 @@
 aid: justinian
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/justinian.png
 name: Justinian
-description: Justinian is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Justinian is an applied AI company, backed by Y Combinator (Summer 2026),
+  building what it calls the first AI-native government affairs firm. Founded by
+  Parth Badhwar (previously Clipbook, The White House, Deloitte's policy team,
+  and the Harris campaign), Justinian helps early-stage companies monitor
+  regulations, lobby policymakers, and win government contracts. The firm
+  operates from San Francisco and Washington, DC, pairing staff drawn from the
+  White House and top lobbying firms with engineering, and frames its mission as
+  rebuilding public-private partnerships in America. Justinian currently
+  presents as a services and product company with a demo-request/contact flow;
+  it does not publish a public developer API, documentation, SDK, or developer
+  portal at this time.
 url: https://raw.githubusercontent.com/api-evangelist/justinian/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: services-firm-no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- GovTech
+- Government Affairs
+- Artificial Intelligence
+- Regulatory Compliance
+- Lobbying
+- Government Contracts
+- Public Policy
 apis: []
+common:
+- type: Website
+  url: https://justinianai.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
